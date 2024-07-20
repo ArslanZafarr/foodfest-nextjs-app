@@ -8,17 +8,27 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: GelionBold;
+  src: url("/fonts/gelion-bold.ttf");
 }
 
+@font-face {
+  font-family: GelionSemibold;
+  src: url("/fonts/gelion-semibold.ttf");
+}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: GelionMedium;
+  src: url("/fonts/gelion-medium.ttf");
+}
+
+@font-face {
+  font-family: GelionRegular;
+  src: url("/fonts/gelion-regular.ttf");
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
 }

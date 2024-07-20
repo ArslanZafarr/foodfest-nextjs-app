@@ -1,0 +1,74 @@
+
+  /* Tabs Styles  */
+  
+  .user-panel-tabs-sections {
+    padding-bottom: 48px;
+  }
+  
+  .tabs-content-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 48px;
+  }
+  
+  .tabs-list-content-wrapper {
+    width: 340px;
+  }
+  
+  .tabs-list-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .tab-each-section-wrapper {
+    padding: 10px 0px 20px 0px;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 8px;
+  }
+  
+  .tab-each-section-list-heading {
+    font-family: GelionSemibold;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 16px;
+  
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .tab-each-section-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  /* .tab-each-section-list-item {
+      font-family: GelionRegular;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.6px;
+      color: rgba(0, 0, 0, 0.9);
+    } */
+  
+  .tab-each-section-list-item h5 {
+    font-family: GelionRegular;
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .tab-each-section-list-item {
+    padding: 3px 0;
+  }
+  
+  .tab-each-section-list-item.active {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .tab-each-section-list-item.active h5 {
+    color: red;
+  }
+  
