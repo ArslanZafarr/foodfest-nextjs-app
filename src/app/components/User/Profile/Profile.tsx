@@ -99,8 +99,28 @@ const ProfileComponent = () => {
                 </div>
               </div>
             </div>
+
             <div className="tab-show-content-wrapper">
-              <h1>Hi Profile</h1>
+              {/* heading  */}
+              <h1 className="tab-content-show-heading">Profile</h1>
+
+              {/* skeleton  */}
+
+              {/* No Found data  */}
+
+              <div className="tab-show-content-not-found">
+                <div className="tab-show-content-not-found-inner">
+                  <Image
+                    src="/images/user/data.png"
+                    width={500}
+                    height={500}
+                    alt="orders"
+                  />
+                  <h6>No Order found</h6>
+                </div>
+              </div>
+
+              {/* data list  */}
             </div>
           </div>
         </div>

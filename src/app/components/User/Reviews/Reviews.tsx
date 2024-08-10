@@ -101,7 +101,26 @@ const ReviewsComponent = () => {
               </div>
             </div>
             <div className="tab-show-content-wrapper">
-              <h1>Hi Reviews</h1>
+              {/* heading  */}
+              <h1 className="tab-content-show-heading">Reviews</h1>
+
+              {/* skeleton  */}
+
+              {/* No Found data  */}
+
+              <div className="tab-show-content-not-found">
+                <div className="tab-show-content-not-found-inner">
+                  <Image
+                    src="/images/user/review.png"
+                    width={500}
+                    height={500}
+                    alt="reviews"
+                  />
+                  <h6>Nothing here yet</h6>
+                </div>
+              </div>
+
+              {/* data list  */}
             </div>
           </div>
         </div>

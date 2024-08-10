@@ -100,7 +100,26 @@ const AddressesComponent = () => {
               </div>
             </div>
             <div className="tab-show-content-wrapper">
-              <h1>Hi Addresses</h1>
+              {/* heading  */}
+              <h1 className="tab-content-show-heading">Addresses</h1>
+
+              {/* skeleton  */}
+
+              {/* No Found data  */}
+
+              <div className="tab-show-content-not-found">
+                <div className="tab-show-content-not-found-inner">
+                  <Image
+                    src="/images/user/address.png"
+                    width={200}
+                    height={200}
+                    alt="address"
+                  />
+                  <h6>You haven&apos;t added any address yet</h6>
+                </div>
+              </div>
+
+              {/* data list  */}
             </div>
           </div>
         </div>
